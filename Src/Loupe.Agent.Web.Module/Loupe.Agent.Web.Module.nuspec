@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Loupe.Agent.Web.Module</id>
+    <version>$version$</version>
+    <title>Loupe Agent Web Module</title>
+    <authors>Gibraltar Software</authors>
+    <owners>Gibraltar Software</owners>
+    <copyright>Copyright © 2008-2015 Gibraltar Software, Inc.</copyright>
+    <licenseUrl>https://github.com/GibraltarSoftware/Gibraltar.Agent.Web.Module/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/GibraltarSoftware/Gibraltar.Agent.Web.Module</projectUrl>
+    <iconUrl>http://www.gibraltarsoftware.com/loupe.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HttpModule that handles logging of messages/exceptions from Loupe JavaScript agent.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <tags>Loupe Logging ASP.NET</tags>
+  </metadata>
+  <files>
+    <file src="web.config.install.xdt" target="Content"/>
+    <file src="web.config.uninstall.xdt" target="Content"/>
+  </files>
+</package>
